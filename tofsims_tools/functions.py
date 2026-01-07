@@ -1,5 +1,11 @@
 import numpy as np
 
+def sum_up(values):
+"""
+Demo Funktion
+"""
+return sum(values)
+
 def normalize_spectrum(intensity):
 	"""
 	Normalisiert ein Intensitätsarray auf 1."
