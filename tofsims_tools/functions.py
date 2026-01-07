@@ -33,6 +33,6 @@ def normalize_image(image_data):
 	"""
 	image_data = np.asarray(image_data, dtype=float)
     total = np.sum(image_data)
-    if total == 0:
+	if total == 0:
         return image_data
     return image_data / total
