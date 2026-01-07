@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: tofsims_tools
+Version: 0.1.0
+Summary: Simple utilities for TOF-SIMS mass spectra and imaging data
+Author: David Koepplinger
+Dynamic: author
+Dynamic: summary
