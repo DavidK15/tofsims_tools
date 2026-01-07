@@ -10,7 +10,7 @@ def normalize_spectrum(intensity):
 		return intensity
 	return intensity / total
 
-def interate_peak(mz, intensity, center, width):
+def integrate_peak(mz, intensity, center, width):
 	"""
 	Integriert die Intensität um einen m/z-Wert (peak center) +- width/2.
 	"""
