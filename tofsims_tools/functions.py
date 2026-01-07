@@ -32,7 +32,7 @@ def normalize_image(image_data):
 	Normalisiert eine 2D-Array auf 1.
 	"""
 	image_data = np.asarray(image_data, dtype=float)
-    total = np.sum(image_data)
+	total = np.sum(image_data)
 	if total == 0:
-        return image_data
-    return image_data / total
+		return image_data / total
+	return image_data / total
